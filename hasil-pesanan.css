@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+}
+
+table {
+  width: 50%;
+  margin-bottom: auto;
+  border-collapse: collapse;
+  color: #000000;
+}
+
+tr, td {
+  text-align: left;
+  padding: auto auto;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 800;
+  letter-spacing: 4px;
+  height: 10vh;
+  padding-top:25px ;
+  text-align: center;
+  color: white;
+  background-color: #2f5167;
+}
+
+.tampilan {
+  background:linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),url(nasiLemak.jpg);
+  background-color: #cccccc;
+  height: 75vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.data-pesanan {
+    max-width: 500px;
+    width: 100%;
+    border-radius: 15px;
+    margin:0 auto 90px auto;
+    z-index: 5;
+    opacity: 0.8;
+    color: #111;
+    border:3px solid #2e3940;
+    padding: 25px 30px;
+    border-radius: 20px;
+    background-color: white;
+    position: relative;
+    box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    top: 150px;
+}
+
+.top-item {
+  background-color: coral;
+}
+
+.top-item-wrapper {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.top-item-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.top-item-row img {
+  width: 350px;
+  height: auto;
+}
+
+.top-item-detail {
+  color: #f7f7f7;
+}
+
+.top-item-detail h3 {
+  font-size: 36px;
+  letter-spacing: 8px;
+  font-weight:800 ;
+}
+
+.top-item-detail p {
+  font-size: 24px;
+}
